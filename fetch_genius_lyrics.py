@@ -11,7 +11,7 @@ from pandarallel import pandarallel
 pandarallel.initialize(progress_bar=True)
 
 data_dir = "data"
-data_without_lyrics_path = os.path.join(data_dir, "data_no_lyrics.csv")
+data_without_lyrics_path = os.path.join(data_dir, "msd_mxm+tagtraum.csv")
 try:
     data_without_lyrics = pd.read_csv(data_without_lyrics_path)
 except:

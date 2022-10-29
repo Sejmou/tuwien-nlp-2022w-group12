@@ -110,7 +110,7 @@ data = songs_and_genres.drop(columns=["msd_artist_name", "msd_title"]).rename(
 print("merged track mappings with genre annotations")
 
 # write to csv
-out_path = os.path.join(data_dir, "data_no_lyrics.csv")
+out_path = os.path.join(data_dir, "msd_mxm+tagtraum.csv")
 print(f"writing data to '{out_path}'")
 data.to_csv(out_path, index=False)
 print("done")
